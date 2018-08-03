@@ -1,0 +1,23 @@
+spring:
+    profiles:
+      active:
+      - dev
+       
+     
+spring:
+    profiles:dev   #开发环境
+     application:
+        name:microserviicecloud-config-xdarker-dev
+        
+        
+ spring:
+    profiles:test   #测试环境 
+     application:
+        name:microserviicecloud-config-xdarker-test
+
+
+
+#请保存为 UTF-8格式        
+    
+       
+       
